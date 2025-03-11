@@ -5,6 +5,7 @@ Welcome to the **Web Developer Bootcamp Project**! This project serves as a comp
 ## 🚀 Technologies Used
 
 ### Frontend:
+
 - **HTML & HTML5** - Structure and semantic markup
 - **CSS** - Styling and layout
 - **CSS Advanced** - Transitions, animations, and selectors
@@ -15,13 +16,16 @@ Welcome to the **Web Developer Bootcamp Project**! This project serves as a comp
 - **React-Router-DOM** - Client-side navigation
 
 ### Backend:
+
 - **Node.js** - Server-side JavaScript runtime
 - **Express.js** - Web framework for Node.js
 
 ### Full-Stack Application:
+
 - **YelpCamp** - A camping site review application, demonstrating full-stack web development
 
 ## 📌 Features
+
 - Responsive web design with Bootstrap
 - Semantic and accessible HTML structure
 - CSS animations and transitions
@@ -33,6 +37,7 @@ Welcome to the **Web Developer Bootcamp Project**! This project serves as a comp
 - YelpCamp project to apply full-stack development concepts
 
 ## 📂 Project Structure
+
 ```
 Web-Developer-Bootcamp-Project/
 │-- frontend/
@@ -49,41 +54,48 @@ Web-Developer-Bootcamp-Project/
 ```
 
 ## 🔧 Installation & Setup
+
 1. Clone the repository:
+
    ```sh
-   git clone https://github.com/your-username/web-developer-bootcamp-project.git
+   git clone https://github.com/harsh-sangwan2002/Web-Developer-Bootcamp-2.0
    cd web-developer-bootcamp-project
    ```
 
 2. Install dependencies:
+
    ```sh
    # Backend
    cd backend
    npm install
-   
+
    # Frontend
    cd ../frontend
    npm install
    ```
 
 3. Start the application:
+
    ```sh
    # Backend server
    cd backend
    npm start
-   
+
    # Frontend React app
    cd ../frontend
    npm start
    ```
 
 ## 📜 License
+
 This project is open-source and available under the [MIT License](LICENSE).
 
 ## 🙌 Contributing
+
 Feel free to submit issues or pull requests to enhance this project!
 
 ## 📞 Contact
+
 For any inquiries, reach out via email at [your-email@example.com] or visit [your-portfolio.com].
 
 Happy Coding! 🚀
