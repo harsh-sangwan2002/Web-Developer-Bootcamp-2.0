@@ -1,0 +1,28 @@
+/* Universal selector */
+* {
+    background-color: #f1faee;
+}
+
+/* Element selector */
+button {
+    font-size: 30px;
+    background-color: #a8dadc;
+}
+
+/* Multiple selectors */
+h1,
+h2 {
+    color: #1d3557;
+}
+
+/* ID selector */
+#signup {
+    background-color: #1d3557;
+    color: #f1faee;
+}
+
+/* Class selector */
+.tag {
+    background-color: #e63946;
+    color: #f1faee;
+}
