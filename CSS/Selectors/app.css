@@ -26,3 +26,70 @@ h2 {
     background-color: #e63946;
     color: #f1faee;
 }
+
+/* Descendant selector */
+span a {
+    color: #457b9d;
+}
+
+/* Adjacent & Direct-child selector */
+input+button {
+    background-color: pink;
+}
+
+h2+button {
+    font-size: 20px;
+}
+
+footer>a {
+    color: #457b9d;
+}
+
+/* Attribute selector */
+input[type="password"] {
+    color: green;
+}
+
+/* section[class="post"] {
+    background-color: purple;
+} */
+
+a[href*="google"] {
+    color: magenta;
+}
+
+/* Pseudo classes */
+.post button:hover {
+    background-color: #e63946;
+    color: #f1faee;
+}
+
+.post a:hover {
+    text-decoration: underline;
+}
+
+.post button:active {
+    background-color: #02c39a;
+}
+
+.post:nth-of-type(3n) {
+    background-color: #dfe8dc;
+}
+
+/* Pseudo elements */
+h2::first-letter {
+    font-size: 50px;
+    color: #457b9d;
+}
+
+p::first-line {
+    color: purple;
+}
+
+p::selection {
+    background-color: #fcbf49;
+}
+
+button {
+    background-color: magenta !important;
+}
