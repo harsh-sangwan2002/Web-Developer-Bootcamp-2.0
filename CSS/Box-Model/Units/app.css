@@ -1,59 +1,57 @@
-html {
-    font-size: 30px;
-}
-#percentages {
+section {
     background-color: #6d6875;
-    width: 800px;
+    width: 400px;
     height: 800px;
 }
 
-#percentages div {
-    background-color:#e5989b;
+div {
+    background-color: #e5989b;
     width: 70%;
     height: 20%;
 }
 
-
-#ems h2 {
-    font-size: 2em;
-    margin-left: 1em;
-}
-#ems h3 {
-    font-size: 1.5em;
-}
-#ems p {
-    font-size: 1em;
-}
-
-#ems {
+article {
     font-size: 15px;
 }
 
-#ems ul {
+p {
+    font-size: 1em;
+}
+
+h1 {
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+h2 {
+    font-size: 2em;
+    margin-left: 1em;
+}
+
+h3 {
     font-size: 1.5em;
 }
 
 button {
-    font-size: 1em;
-    padding: 0 1em;
-    border-radius: 0.5em;
+    font-size: 30px;
+    padding: 0 30px;
+    border-radius: 15px;
     background-color: #2a9d8f;
     color: white;
 }
 
+ul {
+    font-size: 1.5em;
+}
 
-#rems h2{
+#rems h2 {
     font-size: 3rem;
 }
-#rems h3{
+
+#rems h3 {
     font-size: 2rem;
 }
-#rems ul{
-    font-size: 1.5rem;
+
+#rems ul {
+    font-size: 0.8rem;
 }
-
-#rems button{
-    font-size: 1.5rem;
-}
-
-
