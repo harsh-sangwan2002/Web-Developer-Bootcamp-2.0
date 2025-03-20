@@ -1,0 +1,40 @@
+1
+1
+2
+2
+3
+3
+1.9999999999999
+1.9999999999999
+1.9999999999999999
+2
+typeof 4
+'number'
+0/0
+NaN
+typeof NaN
+'number'
+4+3*4/2
+10
+12 + 34
+46
+let year = 1985;
+undefined
+year
+1985
+let numHens = 5, numRoosters = 1
+undefined
+numHens + numRoosters
+6
+numHens+1
+6
+numHens
+5
+let totalChickens = numHens + numRoosters;
+undefined
+totalChickens
+6
+numHens++;
+5
+numHens
+6
