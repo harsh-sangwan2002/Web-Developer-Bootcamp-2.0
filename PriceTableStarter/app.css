@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Open-sans', sans-serif;
+    background-color: #60a9ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.panel {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 20px;
+    border-radius: 15px 25px;
+    width: 100%;
+    max-width: 960px;
+    text-transform: uppercase;
+}
+
+.pricing-plan {
+    border-right: 1px solid #e1f1ff;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+.pricing-plan:last-child {
+    border: none;
+}
+
+.pricing-img {
+    margin-bottom: 25px;
+    max-width: 100%;
+}
+
+.pricing-header {
+    color: #888;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+}
+
+.pricing-features {
+    margin: 50px 0 10px;
+    color: #016ff9;
+}
+
+.pricing-features-item {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    padding: 15px 0;
+    border-top: 1px solid #e1f1ff;
+}
+
+.pricing-features-item:last-child {
+    border-bottom: 1px solid #e1f1ff;
+}
+
+.pricing-price {
+    color: #016ff9;
+    display: block;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.pricing-button {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid #48aaff;
+    color: #48aaff;
+    border-radius: 10px;
+    font-size: 14px;
+    transition: all 0.5s ease-in-out;
+}
+
+.pricing-button.is-featured {
+    background-color: #269aff;
+    color: white;
+}
+
+.pricing-button:hover {
+    background-color: #48aaff;
+    color: white;
+}
+
+.pricing-button.is-featured:hover {
+    background-color: transparent;
+    color: #269aff;
+}
+
+@media (max-width: 768px) {
+    .panel {
+        flex-direction: column;
+    }
+
+    .pricing-plan {
+        border-right: none;
+    }
+}
