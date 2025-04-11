@@ -1,12 +1,51 @@
-# React + Vite
+# 🧩 Product Flow Editor
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A visually interactive product flow editor that allows users to:
 
-Currently, two official plugins are available:
+- View products in a beautiful card layout with gradient styling
+- Dynamically add products to a cart-like section using toggle buttons
+- See selected product details (title and price)
+- Visually map out relationships between selected products (nodes and edges) using a drag-and-drop editor
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## Expanding the ESLint configuration
+🔗 [Click here to view the deployed app](https://policy-flow-editor.vercel.app/)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> Replace the above URL with your actual deployed link
+
+---
+
+## 🛠 Features
+
+- ✅ Product fetching from DummyJSON API
+- ✅ Dynamic "Add to Cart" toggle for title and price
+- ✅ Beautiful UI using Tailwind CSS gradients and hover effects
+- ✅ Flow editor to add products as nodes and draw arrows between them
+- ✅ Modular component structure for scalability
+
+---
+
+## 🧱 Tech Stack
+
+- **React** (Vite)
+- **Tailwind CSS** for styling
+- **Lucide React** for icons
+- **React Flow** for drag-and-drop product nodes and edge connections
+- **DummyJSON API** for fetching sample products
+
+---
+
+## 📁 Folder Structure
+
+```bash
+src/
+├── components/
+│   ├── Product.jsx         # Individual product card
+│   ├── Products.jsx        # Product list and data fetching
+│   ├── FlowEditor.jsx      # Canvas for node/edge-based product flow
+│   ├── ProductList.jsx     # List of products to add to the flow
+│   └── Node.jsx            # Node component for the flow
+├── App.jsx
+├── main.jsx
+└── index.css
+```
